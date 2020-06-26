@@ -33,14 +33,18 @@ Note: Go to `http://localhost:5984/_utils` in your browser to view Fauxton and p
 
 _Note: To delete the development database, go to the root of the project and run `docker-compose down -v --rmi all --remove-orphans`_
 
-## 3. How to test locally
+## 3. Test locally
+Every push to a remote branch triggers a test. The same test can be performed locally as below.
 
 `npm run test:ci` will run the entire test suite
+
 `npm run test:ci <file name>` e.g. `npm run test:ci src/__tests__/HospitalRun.test.tsx` will run that specific test file
+
 `npm run test` will run the test suite in watch mode
 
-## 4: How to run linter locally
+## 4: Run linter locally
 `npm run lint` will run the linter
+
 `npm run lint:fix` will run the linter and fix fixable errors
 
 ## Useful Developer Tools
@@ -49,3 +53,6 @@ _Note: To delete the development database, go to the root of the project and run
 - [VSCode React Extension Pack](https://marketplace.visualstudio.com/items?itemName=jawandarajbir.react-vscode-extension-pack)
 - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
 - [Redux Developer Tools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
+
+## Resources
+- For a list of language codes we use, see [this](https://github.com/HospitalRun/hospitalrun-frontend/tree/master/src/locales/README.md).

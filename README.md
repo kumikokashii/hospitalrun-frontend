@@ -1,5 +1,3 @@
-# HospitalRun Frontend
-
 [Visit this page for general information on the HospitalRun application](https://github.com/HospitalRun/hospitalrun/blob/master/README.md) including:
 - How can I deploy 1.0.0-beta?
 - Where do I report a bug or request a feature?
@@ -10,7 +8,7 @@
 
 # How to Contribute to the Frontend Repository
 
-Get started by checking out the [Frontend Contributing Guide](https://github.com/HospitalRun/hospitalrun-frontend/blob/master/.github/CONTRIBUTING.md) for:
+[Get started by checking out the Frontend Contributing Guide](https://github.com/HospitalRun/hospitalrun-frontend/blob/master/.github/CONTRIBUTING.md) for:
 - What's the tech stack?
 - Where can I become familiar with the technologies?
 - Where do I browse issues?
@@ -18,6 +16,8 @@ Get started by checking out the [Frontend Contributing Guide](https://github.com
 - How do I run tests locally?
 - How do I submit my changes?
 - etc.
+
+---
 
 <div align="center">
 

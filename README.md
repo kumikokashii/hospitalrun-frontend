@@ -1,10 +1,6 @@
 [Visit this page for general information on the HospitalRun application](https://github.com/HospitalRun/hospitalrun/blob/master/README.md) including:
-- How can I deploy 1.0.0-beta?
-- Where do I report a bug or request a feature?
-- How can I contribute? (There are several other ways besides coding)
-- What is the project structure?
-- What is the application infrastructure?
-- Who is behind HospitalRun?
+
+How can I deploy 1.0.0-beta? | Where do I report a bug or request a feature? | How can I contribute? (There are several other ways besides coding) | What is the project structure? | What is the application infrastructure? | Who is behind HospitalRun? etc.
 
 # How to Contribute to the Frontend Repository
 

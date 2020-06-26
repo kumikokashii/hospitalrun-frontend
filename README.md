@@ -10,10 +10,10 @@
 
 </div>
 
-Visit [this page](https://github.com/HospitalRun/hospitalrun/blob/master/README.md) for general information on the HospitalRun application including:
+[Visit this page for general information on the HospitalRun application](https://github.com/HospitalRun/hospitalrun/blob/master/README.md) including:
 - How can I deploy 1.0.0-beta?
 - Where do I report a bug or request a feature?
-- How can I contribute? (There are several other ways to contribute other than coding)
+- How can I contribute? (There are several other ways besides coding)
 - What is the project structure?
 - What is the application infrastructure?
 - Who is behind HospitalRun?
@@ -22,8 +22,8 @@ Visit [this page](https://github.com/HospitalRun/hospitalrun/blob/master/README.
 
 Get started by checking out the [Frontend Contributing Guide](https://github.com/HospitalRun/hospitalrun-frontend/blob/master/.github/CONTRIBUTING.md) for:
 - What's the tech stack?
-- Where can I learn about the technologies?
-- Where can I browse issues?
+- Where can I become familiar with the technologies?
+- Where do I browse issues?
 - How do I set up my local environment?
 - How do I run tests locally?
 - How do I submit my changes?

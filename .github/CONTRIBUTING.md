@@ -63,3 +63,10 @@ Programming with Mosh](https://www.youtube.com/watch?v=Ke90Tje7VS0)
 ### Redux
 - [Redux For Beginners | React Redux Tutorial by DevEd](https://youtu.be/CVpUuw9XSjY)
 - [Chrome Redux Developer Tools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
+
+### PouchDB
+- [Getting started with PouchDB and CouchDB (tutorial) by Nolan Lawson](https://youtu.be/-Z7UF2TuSp0)
+
+### Enzyme
+- [Enzyme Cheatsheet by @rstacruz](https://devhints.io/enzyme)
+

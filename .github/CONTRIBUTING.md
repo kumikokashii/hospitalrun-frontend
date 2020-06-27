@@ -33,8 +33,9 @@ Note: Go to `http://localhost:5984/_utils` in your browser to view Fauxton and p
 
 _Note: To delete the development database, go to the root of the project and run `docker-compose down -v --rmi all --remove-orphans`_
 
-## 3. Test locally
-Every push to a remote branch triggers a test. The same test can be performed locally as below.
+## 3. Before pushing your changes, check locally that your branch passes CI checks
+
+### We use Jest + Enzyme for Behavior-Driven Development Tests
 
 `npm run test:ci` will run the entire test suite
 
@@ -42,17 +43,23 @@ Every push to a remote branch triggers a test. The same test can be performed lo
 
 `npm run test` will run the test suite in watch mode
 
-## 4: Run linter locally
+### We use ESLint for static program analysis 
+
 `npm run lint` will run the linter
 
 `npm run lint:fix` will run the linter and fix fixable errors
 
-## Useful Developer Tools
+## 4. Get familiar with documentation
+- For a list of i18n language codes, see [this](https://github.com/HospitalRun/hospitalrun-frontend/tree/master/src/locales/README.md).
 
-- [VSCode](https://code.visualstudio.com/)
+## [ Extra ] Resources to help get you ramped up on the tech stack!
+
+### React
+- [React Tutorial for Beginners by 
+Programming with Mosh](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+- [Chrome React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
 - [VSCode React Extension Pack](https://marketplace.visualstudio.com/items?itemName=jawandarajbir.react-vscode-extension-pack)
-- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
-- [Redux Developer Tools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
 
-## Resources
-- For a list of language codes we use, see [this](https://github.com/HospitalRun/hospitalrun-frontend/tree/master/src/locales/README.md).
+### Redux
+- [Redux For Beginners | React Redux Tutorial by DevEd](https://youtu.be/CVpUuw9XSjY)
+- [Chrome Redux Developer Tools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)

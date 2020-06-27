@@ -50,7 +50,7 @@ npm run start
 
 Note: We no longer support the use of yarn.
 
-## 3. Before pushing your changes, check locally that your branch passes CI checks
+## 4. Before pushing your changes, check locally that your branch passes CI checks
 
 ### We use Jest + Enzyme for Behavior-Driven Development Tests
 
@@ -66,7 +66,7 @@ Note: We no longer support the use of yarn.
 
 `npm run lint:fix` will run the linter and fix fixable errors
 
-## 4. Get familiar with documentation
+## 5. Get familiar with documentation
 - For a list of i18n language codes, see [this](https://github.com/HospitalRun/hospitalrun-frontend/tree/master/src/locales/README.md).
 
 ## [ Extra ] Resources to help get you ramped up on the tech stack!

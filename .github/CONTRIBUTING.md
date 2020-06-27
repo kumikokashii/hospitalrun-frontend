@@ -33,6 +33,23 @@ Note: Go to `http://localhost:5984/_utils` in your browser to view Fauxton and p
 
 _Note: To delete the development database, go to the root of the project and run `docker-compose down -v --rmi all --remove-orphans`_
 
+## 3. Start the application
+```
+npm install
+npm run start
+```
+
+If your branch's packages changed, reinstall the packages before starting the application:
+```
+rm -fr node_modules
+rm yarn.lock (if you used yarn before)
+rm package-lock.json
+npm install
+npm run start
+```
+
+Note: We no longer support the use of yarn.
+
 ## 3. Before pushing your changes, check locally that your branch passes CI checks
 
 ### We use Jest + Enzyme for Behavior-Driven Development Tests
